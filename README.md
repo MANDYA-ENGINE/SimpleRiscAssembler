@@ -12,24 +12,33 @@ A Python-based assembler for the Simple RISC instruction set architecture with a
 
 ## Installation
 
-1. Ensure you have Python 3.6+ installed.
-2. Install required dependencies:
-   ```bash
-   pip install tkinter
-   ```
+### Prerequisites
+Ensure you have Python 3.6+ installed on your system.
+
+### Install Required Dependencies
+Run the following command to install the required Python libraries:
+```bash
+pip install tkinter
+```
 
 ## Usage
 
-Run the GUI application:
+### Running the GUI Application
+Execute the following command in your terminal or command prompt:
 ```bash
 python GUI.py
 ```
 
-Use the toolbar buttons to:
-- Create a new file
-- Open an existing assembly file
-- Save the current file
-- Assemble the code
+### GUI Features
+- **Create a new file**
+- **Open an existing assembly file**
+- **Save the current file**
+- **Assemble the code**
+
+## File Structure
+The repository consists of the following key files:
+- `GUI.py` - Implements the graphical user interface using Tkinter.
+- `final.py` - Contains the assembler logic for parsing and converting S-RISC-21 assembly into binary/hexadecimal.
 
 ## Assembly Language Syntax
 
@@ -114,6 +123,24 @@ The assembler provides detailed error messages for:
 ### Hexadecimal Output:
 - Shows assembled instructions in hexadecimal format
 - One instruction per line
+
+## Step-by-Step Guide to Running the Assembler
+1. Clone this repository:
+   ```bash
+   git clone <repository_url>
+   cd <repository_directory>
+   ```
+2. Install dependencies:
+   ```bash
+   pip install tkinter
+   ```
+3. Run the GUI interface:
+   ```bash
+   python GUI.py
+   ```
+4. Write your assembly code in the editor.
+5. Click **Assemble** to generate the binary and hexadecimal output.
+6. View the assembled output in the provided tabs.
 
 ## Contributing
 1. Fork the repository
