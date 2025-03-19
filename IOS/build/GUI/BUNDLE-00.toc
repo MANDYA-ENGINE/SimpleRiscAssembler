@@ -1,0 +1,3 @@
+([('GUI',
+   '/Users/ujwalar/1.DEVELOPMENT/CORE_DEV/SimpleRisc_Assembler/dist/GUI',
+   'EXECUTABLE')],)
