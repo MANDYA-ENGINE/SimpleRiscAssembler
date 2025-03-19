@@ -1,4 +1,4 @@
-# S-RISC-21 Assembler
+# Simple RISC Assembler
 
 A Python-based assembler for the S-RISC-21 instruction set architecture with a modern GUI interface.
 
